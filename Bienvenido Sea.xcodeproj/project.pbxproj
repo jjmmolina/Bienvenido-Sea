@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		627F78691697980B00FF20FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F78681697980B00FF20FB /* UIKit.framework */; };
+		627F786B1697980B00FF20FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F786A1697980B00FF20FB /* Foundation.framework */; };
+		627F786D1697980B00FF20FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F786C1697980B00FF20FB /* CoreGraphics.framework */; };
+		627F78731697980B00FF20FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 627F78711697980B00FF20FB /* InfoPlist.strings */; };
+		627F78751697980B00FF20FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 627F78741697980B00FF20FB /* main.m */; };
+		627F78791697980B00FF20FB /* bienvenidoSeaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 627F78781697980B00FF20FB /* bienvenidoSeaAppDelegate.m */; };
+		627F787B1697980C00FF20FB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 627F787A1697980B00FF20FB /* Default.png */; };
+		627F787D1697980C00FF20FB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 627F787C1697980C00FF20FB /* Default@2x.png */; };
+		627F787F1697980C00FF20FB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 627F787E1697980C00FF20FB /* Default-568h@2x.png */; };
+		627F78821697980C00FF20FB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627F78801697980C00FF20FB /* MainStoryboard.storyboard */; };
+		627F78851697980C00FF20FB /* bienvenidoSeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627F78841697980C00FF20FB /* bienvenidoSeaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		627F78641697980B00FF20FB /* Bienvenido Sea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bienvenido Sea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		627F78681697980B00FF20FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		627F786A1697980B00FF20FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		627F786C1697980B00FF20FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		627F78701697980B00FF20FB /* Bienvenido Sea-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bienvenido Sea-Info.plist"; sourceTree = "<group>"; };
+		627F78721697980B00FF20FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		627F78741697980B00FF20FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		627F78761697980B00FF20FB /* Bienvenido Sea-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bienvenido Sea-Prefix.pch"; sourceTree = "<group>"; };
+		627F78771697980B00FF20FB /* bienvenidoSeaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bienvenidoSeaAppDelegate.h; sourceTree = "<group>"; };
+		627F78781697980B00FF20FB /* bienvenidoSeaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bienvenidoSeaAppDelegate.m; sourceTree = "<group>"; };
+		627F787A1697980B00FF20FB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		627F787C1697980C00FF20FB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		627F787E1697980C00FF20FB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		627F78811697980C00FF20FB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		627F78831697980C00FF20FB /* bienvenidoSeaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bienvenidoSeaViewController.h; sourceTree = "<group>"; };
+		627F78841697980C00FF20FB /* bienvenidoSeaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bienvenidoSeaViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		627F78611697980B00FF20FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627F78691697980B00FF20FB /* UIKit.framework in Frameworks */,
+				627F786B1697980B00FF20FB /* Foundation.framework in Frameworks */,
+				627F786D1697980B00FF20FB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		627F78591697980B00FF20FB = {
+			isa = PBXGroup;
+			children = (
+				627F786E1697980B00FF20FB /* Bienvenido Sea */,
+				627F78671697980B00FF20FB /* Frameworks */,
+				627F78651697980B00FF20FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		627F78651697980B00FF20FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				627F78641697980B00FF20FB /* Bienvenido Sea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		627F78671697980B00FF20FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				627F78681697980B00FF20FB /* UIKit.framework */,
+				627F786A1697980B00FF20FB /* Foundation.framework */,
+				627F786C1697980B00FF20FB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		627F786E1697980B00FF20FB /* Bienvenido Sea */ = {
+			isa = PBXGroup;
+			children = (
+				627F78771697980B00FF20FB /* bienvenidoSeaAppDelegate.h */,
+				627F78781697980B00FF20FB /* bienvenidoSeaAppDelegate.m */,
+				627F78801697980C00FF20FB /* MainStoryboard.storyboard */,
+				627F78831697980C00FF20FB /* bienvenidoSeaViewController.h */,
+				627F78841697980C00FF20FB /* bienvenidoSeaViewController.m */,
+				627F786F1697980B00FF20FB /* Supporting Files */,
+			);
+			path = "Bienvenido Sea";
+			sourceTree = "<group>";
+		};
+		627F786F1697980B00FF20FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				627F78701697980B00FF20FB /* Bienvenido Sea-Info.plist */,
+				627F78711697980B00FF20FB /* InfoPlist.strings */,
+				627F78741697980B00FF20FB /* main.m */,
+				627F78761697980B00FF20FB /* Bienvenido Sea-Prefix.pch */,
+				627F787A1697980B00FF20FB /* Default.png */,
+				627F787C1697980C00FF20FB /* Default@2x.png */,
+				627F787E1697980C00FF20FB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		627F78631697980B00FF20FB /* Bienvenido Sea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627F78881697980C00FF20FB /* Build configuration list for PBXNativeTarget "Bienvenido Sea" */;
+			buildPhases = (
+				627F78601697980B00FF20FB /* Sources */,
+				627F78611697980B00FF20FB /* Frameworks */,
+				627F78621697980B00FF20FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bienvenido Sea";
+			productName = "Bienvenido Sea";
+			productReference = 627F78641697980B00FF20FB /* Bienvenido Sea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		627F785B1697980B00FF20FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bienvenidoSea;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = abantic.org;
+			};
+			buildConfigurationList = 627F785E1697980B00FF20FB /* Build configuration list for PBXProject "Bienvenido Sea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 627F78591697980B00FF20FB;
+			productRefGroup = 627F78651697980B00FF20FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				627F78631697980B00FF20FB /* Bienvenido Sea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		627F78621697980B00FF20FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627F78731697980B00FF20FB /* InfoPlist.strings in Resources */,
+				627F787B1697980C00FF20FB /* Default.png in Resources */,
+				627F787D1697980C00FF20FB /* Default@2x.png in Resources */,
+				627F787F1697980C00FF20FB /* Default-568h@2x.png in Resources */,
+				627F78821697980C00FF20FB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		627F78601697980B00FF20FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627F78751697980B00FF20FB /* main.m in Sources */,
+				627F78791697980B00FF20FB /* bienvenidoSeaAppDelegate.m in Sources */,
+				627F78851697980C00FF20FB /* bienvenidoSeaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		627F78711697980B00FF20FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				627F78721697980B00FF20FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		627F78801697980C00FF20FB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				627F78811697980C00FF20FB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		627F78861697980C00FF20FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		627F78871697980C00FF20FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		627F78891697980C00FF20FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bienvenido Sea/Bienvenido Sea-Prefix.pch";
+				INFOPLIST_FILE = "Bienvenido Sea/Bienvenido Sea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		627F788A1697980C00FF20FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bienvenido Sea/Bienvenido Sea-Prefix.pch";
+				INFOPLIST_FILE = "Bienvenido Sea/Bienvenido Sea-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		627F785E1697980B00FF20FB /* Build configuration list for PBXProject "Bienvenido Sea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627F78861697980C00FF20FB /* Debug */,
+				627F78871697980C00FF20FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627F78881697980C00FF20FB /* Build configuration list for PBXNativeTarget "Bienvenido Sea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627F78891697980C00FF20FB /* Debug */,
+				627F788A1697980C00FF20FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 627F785B1697980B00FF20FB /* Project object */;
+}
