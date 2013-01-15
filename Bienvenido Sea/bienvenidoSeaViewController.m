@@ -7,6 +7,7 @@
 //
 
 #import "bienvenidoSeaViewController.h"
+#import "MapViewController.h"
 
 @interface bienvenidoSeaViewController ()
 
@@ -26,4 +27,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)viewMap:(id)sender
+{
+    //- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:    {
+        //if ([segue.identifier isEqualToString:@"pushToDetail"])
+        //{
+            //MapViewController *viewController = segue.destinationViewController;
+            //viewController.placemark = self.placemark;
+        //}
+    //}
+
+}
+
+- (IBAction)selectImages:(id)sender {
+}
 @end
