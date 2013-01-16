@@ -10,6 +10,7 @@
 		627B9C82169F491E007209B2 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627B9C80169F491E007209B2 /* MapViewController.m */; };
 		627B9CAE16A6143A007209B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B9CAD16A6143A007209B2 /* CoreLocation.framework */; };
 		627B9CB016A6144C007209B2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627B9CAF16A6144C007209B2 /* MapKit.framework */; };
+		627B9CB316A6193C007209B2 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 627B9CB216A6193C007209B2 /* MyAnnotation.m */; };
 		627F78691697980B00FF20FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F78681697980B00FF20FB /* UIKit.framework */; };
 		627F786B1697980B00FF20FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F786A1697980B00FF20FB /* Foundation.framework */; };
 		627F786D1697980B00FF20FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F786C1697980B00FF20FB /* CoreGraphics.framework */; };
@@ -38,6 +39,8 @@
 		627B9C80169F491E007209B2 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		627B9CAD16A6143A007209B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		627B9CAF16A6144C007209B2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		627B9CB116A6193C007209B2 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		627B9CB216A6193C007209B2 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
 		627F78641697980B00FF20FB /* Bienvenido Sea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bienvenido Sea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		627F78681697980B00FF20FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		627F786A1697980B00FF20FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				627F78801697980C00FF20FB /* MainStoryboard.storyboard */,
 				627B9C7F169F491E007209B2 /* MapViewController.h */,
 				627B9C80169F491E007209B2 /* MapViewController.m */,
+				627B9CB116A6193C007209B2 /* MyAnnotation.h */,
+				627B9CB216A6193C007209B2 /* MyAnnotation.m */,
 				627B9C75169CD82A007209B2 /* bienvenidoSeaViewController.h */,
 				627F78841697980C00FF20FB /* bienvenidoSeaViewController.m */,
 				627F786F1697980B00FF20FB /* Supporting Files */,
@@ -236,6 +241,7 @@
 				627F78791697980B00FF20FB /* bienvenidoSeaAppDelegate.m in Sources */,
 				627F78851697980C00FF20FB /* bienvenidoSeaViewController.m in Sources */,
 				627B9C82169F491E007209B2 /* MapViewController.m in Sources */,
+				627B9CB316A6193C007209B2 /* MyAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
