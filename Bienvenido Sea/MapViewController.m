@@ -9,8 +9,6 @@
 #import "MapViewController.h"
 #import "MyAnnotation.h"
 
-#define METERS_PER_MILE 1609.344
-
 @implementation MapViewController
 
 - (void)didReceiveMemoryWarning{ [super didReceiveMemoryWarning];
@@ -22,17 +20,20 @@
 
     /* Set the map type to Satellite */
     self.myMapView.mapType = MKMapTypeHybrid;//MKMapTypeSatellite;
+        
+    // Creamos una coordenada inicial, en nuestro caso perteneciente a Valencia.
+    CLLocationCoordinate2D initialLocation;
+    initialLocation.latitude = 38.203044;
+    initialLocation.longitude= -1.400344;
     
-    MKCoordinateRegion newRegion;
-    newRegion.center.latitude = 38.203044;
-    newRegion.center.longitude = -1.400344;
-    newRegion.span.latitudeDelta = 0.112872;
-    newRegion.span.longitudeDelta = 0.109863;
+    // Esto situará el centro del mapa en Abarán con la distancia de región que establezcamos.
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(initialLocation, 200, 200);
     
-    [self.myMapView setRegion:newRegion animated:YES];
+    [self.myMapView setRegion:region animated:YES];
+    
     
 }
-
+/*
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
 {
     
@@ -41,6 +42,6 @@
     return YES;
 }
 
-
+*/
 
 @end
