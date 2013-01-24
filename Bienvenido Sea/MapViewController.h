@@ -10,4 +10,5 @@
 #import <MapKit/MapKit.h>
 @interface MapViewController : UIViewController
 @property (nonatomic, strong) MKMapView *myMapView;
+@property(nonatomic) MKCoordinateRegion region;
 @end
