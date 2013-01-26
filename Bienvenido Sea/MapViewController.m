@@ -32,6 +32,8 @@
     [self.myMapView setRegion:region animated:YES];
     
     
+    //Faltan cosas por añadir
+    
 }
 /*
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
