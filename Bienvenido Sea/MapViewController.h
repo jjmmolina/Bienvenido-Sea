@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
-@interface MapViewController : UIViewController
-@property (nonatomic, strong) MKMapView *myMapView;
-@property(nonatomic) MKCoordinateRegion region;
+
+@interface MapViewController : UIViewController <MKMapViewDelegate>{
+    MKMapView *mapView;
+}
+
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
+
 @end
